@@ -8,7 +8,7 @@ def record_audio(filename, stop_event):
     chunk = 1024  
     format = pyaudio.paInt16  
     channels = 1
-    rate = 44100  # 
+    rate = 44100  
 
     p = pyaudio.PyAudio()
 
